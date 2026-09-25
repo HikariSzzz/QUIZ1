@@ -11,7 +11,6 @@ package id.ac.polinema.oop;
  * (all fields must be private).
  */
 public class Customer {
-
     private String customerId;
     private String name;
 
@@ -20,7 +19,7 @@ public class Customer {
         this.name = name;
     }
 
-    public String getcustomerId() {
+    public String getCustomerId() {
         return customerId;
     }
 
