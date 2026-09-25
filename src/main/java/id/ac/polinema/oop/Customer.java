@@ -29,7 +29,7 @@ public class Customer {
     }
 
     public void setName(String name) {
-        if (name == null || name.trim().isEmpty()) {
+        if (name == null) {
             return;
         }
         this.name = name;
