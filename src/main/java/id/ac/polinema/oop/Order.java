@@ -26,5 +26,13 @@ public class Order {
     public int getItemCount() {
         return itemCount;
     }
+
+    public double getTotalPrice() {
+        double total = 0;
+        for (int i = 0; i < itemCount; i++) {
+            total += items[i].getSubtotal();
+        }
+        return total;
+    }
 }
 
